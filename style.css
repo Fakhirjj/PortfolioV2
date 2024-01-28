@@ -2,6 +2,10 @@
     font-family: 'Lastica';
     src: url(FontsFree-Net-Lastica.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'TTInterfaces';
+  src: url(TTInterfaces-Regular.ttf) format('truetype');
+}
 
 body, html {
     height: 100%;
@@ -127,42 +131,40 @@ button:hover > svg > path {
 button:active > svg > path {
   d: path("M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0");
 }
-/* Add media queries for responsiveness */
-@media (max-width: 600px) {
-    .header {
-        padding: 20px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .profile-photo {
-        width: 100px;
-        height: 100px;
-        margin-right: 0; /* Remove space since the header stacks on mobile */
-        margin-bottom: 10px; /* Space between image and text when stacked */
-    }
-    
-    h1 {
-        font-size: 1.5em;
-    }
 
-    h2 {
-        font-size: 1.2em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    .info {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .molten {
-        width: 100%; /* Make image responsive */
-        height: auto;
-        margin-left: 0;
-        margin-top: 20px; /* Add space between the text and image when stacked */
-    }
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 130px 180px; /* Adjust as necessary */
 }
+
+.molten2{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.molten3{
+  position: absolute;
+  width: 350px;
+  transform: rotate(-90deg);
+  margin-top: 150px;
+  margin-left: 200px;
+  float: left;
+}
+
+.about-me-info{
+  font-family: 'TTInterfaces';
+  font-weight: bold;
+  font-size: 45px;
+  word-spacing: 5px;
+  line-height: 40px;
+  flex: 1;
+  margin-left: 800px;
+  margin-top: 200px;
+}
+
+/* Add media queries for responsiveness */
