@@ -32,7 +32,7 @@ body, html {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px; /* Space between the image and the text */
+    margin-right: 20px; 
     border: 4px solid white;
 }
 
@@ -40,7 +40,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 180px; /* Adjust as necessary */
+    padding: 0 180px; 
 }
 
 h1 {
@@ -136,7 +136,7 @@ button:active > svg > path {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 130px 180px; /* Adjust as necessary */
+  padding: 130px 180px; 
 }
 
 .molten2{
@@ -167,4 +167,153 @@ button:active > svg > path {
   margin-top: 200px;
 }
 
-/* Add media queries for responsiveness */
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.card1{
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  border-top-left-radius:40px;
+  border-top-right-radius: 40px;
+
+}
+
+.card2{
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  border-radius: 40px;
+
+}
+
+.card3{
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  border-radius: 40px;
+}
+
+.img1{
+  position: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 500px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.card1-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  background: linear-gradient(to right, #75498f, #604eb1);
+  border-radius: 0 0 20px 20px;
+  margin-top: 500px;
+  height: 365px;
+}
+
+.card1-body h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px 0; 
+}
+
+.card1-body p {
+  font-family: 'TTInterfaces';
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 0; 
+}
+
+.btn1 {
+  margin-top: 10px;
+}
+
+
+.card2-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  background: linear-gradient(to right, #75498f, #604eb1);
+  border-radius: 0 0 20px 20px;
+  margin-top: 500px;
+  height: 365px;
+}
+
+.card2-body h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 10px 0; 
+}
+
+.card2-body p {
+  font-family: 'TTInterfaces';
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 0; 
+}
+
+.btn2 {
+  margin-top: 10px;
+}
+
+.card3-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  background: linear-gradient(to right, #75498f, #604eb1);
+  border-radius: 0 0 20px 20px;
+  margin-top: 500px;
+  height: 365px;
+}
+
+.card3-body h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px 0; 
+}
+
+.card3-body p {
+  font-family: 'TTInterfaces';
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 0; 
+}
+
+.btn3 {
+  margin-top: 10px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.projects h1 {
+  font-size: 45px;
+  font-weight: bolder; 
+  margin-top: 300px; 
+  padding: 20px 0; 
+}
+
+
+
+
+
+
+
