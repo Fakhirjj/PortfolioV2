@@ -312,6 +312,27 @@ button:active > svg > path {
 }
 
 
+.hover-image {
+  transition: transform 0.5s ease; 
+}
+
+
+.card1:hover .hover-image {
+  transform: scale(1.1);
+}
+
+
+.card2:hover .hover-image {
+  transform: scale(1.1); 
+}
+
+
+.card3:hover .hover-image {
+  transform: scale(1.1); 
+}
+
+
+
 
 
 
