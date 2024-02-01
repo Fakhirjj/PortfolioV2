@@ -7,6 +7,7 @@
   src: url(TTInterfaces-Regular.ttf) format('truetype');
 }
 
+
 body, html {
     height: 100%;
     margin: 0;
@@ -332,9 +333,117 @@ button:active > svg > path {
 }
 
 
+.info2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 180px; 
+}
 
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
 
+h2 {
+  font-size: 80px;
+  margin: 10px 0;
+}
 
+p {
+  font-size: 30px;
+  margin: 10px 0;
+}
 
+.molten4{
+  width: 300px;
+  height: auto;
+  margin-top: 1000px;
+  margin-left: 20px;
+  z-index: 1;
+}
+.molten5{
+  position: absolute;
+  width: 250px;
+  height: auto;
+  margin-left: 1200px;
+  margin-bottom:500px;
+  transform: rotate(110deg);
+  z-index: 0;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.text-contact{
+  text-align: center;
+  line-height: 100px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+body {
+  background-color: #ddd;
+  padding: 80px 16px 16px 16px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+ul {
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: center;
+  margin: auto;
+}
+
+@media (min-width: 500px) {
+  ul {
+    grid-auto-flow: column;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+a:hover {
+  box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+
+li:last-child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+li:hover ~ li p {
+  animation: wave-animation 0.3s infinite;
+}
+
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
 
 
